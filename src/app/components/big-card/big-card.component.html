@@ -1,7 +1,7 @@
 <div class="container__big-card">
 
     <div clas="big-card__photo">
-        <img src="https://blog.geekhunter.com.br/wp-content/uploads/2019/10/Um-overview-sobre-o-framework-Angular.jpg" 
+        <img src="{{ photoCover }}"
          alt=""
           height="200px"
           srcset=""
@@ -10,10 +10,10 @@
     
     
     <div class="bid-card__title">
-        <h1><a href="https://www.globo.com/"> Saiu nova versão do Angular</a></h1>
+        <h1><a href="https://www.globo.com/"> {{cardTitle}}</a></h1>
     </div>
     
     <div class="big-card__description">
-       <p>Novo angular nao contem mais o appModule</p>
+       <p>{{cardDescription}}</p>
     </div>
 </div>
